@@ -1,0 +1,11 @@
+#labeled-p {
+  color: peru;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
