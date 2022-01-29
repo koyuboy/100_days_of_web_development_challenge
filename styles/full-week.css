@@ -1,5 +1,55 @@
+header {
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+}
+
+#description {
+  margin-bottom: 12px;
+}
+
 a {
-  background-color: rgba(240, 255, 240, 0.7);
-  padding: 8px;
-  border-radius: 10px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  padding: 25px 20px;
+  border-radius: 9px;
+  font-size: 24;
+  display: inline-block;
+  margin: 0;
+}
+a:hover {
+  text-decoration: none;
+  background-color: rgb(180, 12, 90);
+}
+
+ol {
+  list-style-type: none;
+  width: 500px;
+  margin: 32px auto 32px auto;
+  padding: 0px;
+}
+
+li {
+  background-color: rgb(223, 136, 124);
+  border-radius: 9px;
+  margin: 10px;
+  padding: 7px;
+  box-shadow: 20px -5px 8px teal;
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
+}
+
+/* main p {
+  color: rgb(255, 29, 22);
+} */
+
+.daily-goal {
+  color: rgb(71, 29, 22);
+  margin: 12px;
 }
